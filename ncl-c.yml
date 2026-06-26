@@ -1,0 +1,20 @@
+name: ncl-c
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - c-compiler
+  - cdsapi
+  - cmake
+  - cxx-compiler
+  - fortran-compiler
+  - gdal<3.10
+  - gsl<=2.8
+  - make
+  - ncl
+  - jasper<4.0
+variables:
+  NCL_USER_DIR: /homedir/ncl-c/ncl                   # Base directory with user-defined NCL scripts
+  NCLC_SRC:     /homedir/ncl-c/src                   # Directory with C source files
+  NCLC_SH:      /homedir/ncl-c/sh                    # Directory with bash shell scripts
+  NCL_SCRIPTS:  /homedir/ncl-c/ncl/scripts

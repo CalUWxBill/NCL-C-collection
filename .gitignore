@@ -1,0 +1,2 @@
+# don't track shared object files within so, but directory is important
+/ncl/so/*
