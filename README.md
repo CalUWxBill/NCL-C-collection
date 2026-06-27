@@ -2,6 +2,9 @@
 
 ## This is a collection of NCL functions, many of which call C functions that use a pretty substantial N-dim array library that is in the include directory.
 
+#### ncl/load/functions.ncl contains basic functions for creating arrays
+#### ncl/load/named_stats.ncl contains most of the statistical functions
+
 # Install Prerequisites:
 
 #### * Works on a Linux machine.
