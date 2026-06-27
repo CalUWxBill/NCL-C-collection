@@ -24,14 +24,12 @@
 #### To deactivate,
     $ . ncl-c/deactivate.sh
 
-#### Copy teleconnections directory into directory you want these files
-
-#### Give executable permission for bash shell and python scripts.
+#### Give executable permission for bash shell scripts.
 ##### - Use whatever permission is appropriate for your system as long as you can execute scripts and scripts called within can be executed.
     $ chmod ug+x ncl-c/sh/*
 
 #### Edit the nhlcc program at $CONDA_PREFIX/bin/nhlcc, by changing the "set cc" line.
     set cc       = "cc"
 
-#### Install the C source files into NCL shared library objects by running the following scripts.
+#### Install the C source files into NCL shared library objects by running the following script.
     $ compile_ncl_all.sh
